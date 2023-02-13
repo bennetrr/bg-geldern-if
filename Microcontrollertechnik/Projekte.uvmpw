@@ -53,6 +53,10 @@
 
   <project>
     <PathAndName>.\5 Transportanlage\Transportanlage.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\6 Timer\Timer.uvproj</PathAndName>
     <NodeIsActive>1</NodeIsActive>
     <NodeIsExpanded>1</NodeIsExpanded>
   </project>
