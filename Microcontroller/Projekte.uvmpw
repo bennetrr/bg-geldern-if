@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectWorkspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_mpw.xsd">
+
+  <SchemaVersion>1.0</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <WorkspaceName>WorkSpace</WorkspaceName>
+
+  <project>
+    <PathAndName>.\0 Blinklicht\Blinklicht.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\1a Gegenwechsel\Gegenwechsel.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\1b Zähler\Zähler.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\1c Lauflicht\Lauflicht.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\1d KnightRider\KnightRider.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\1e Prozessanzeige\Prozessanzeige.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\2a Lauflicht bidirektional P5\Lauflicht bidirektional P5.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\2c Lauflicht bidirektional P6\Lauflicht bidirektional P6.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\3a Lauflicht abschaltbar 2 Schalter\Lauflicht abschaltbar 2 Schalter.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\3b Lauflicht abschaltbar 1 Schalter\Lauflicht abschaltbar 1 Schalter.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\4c Motorsteuerung\Motorsteuerung.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\5 Transportanlage\Transportanlage.uvproj</PathAndName>
+    <NodeIsActive>1</NodeIsActive>
+    <NodeIsExpanded>1</NodeIsExpanded>
+  </project>
+
+</ProjectWorkspace>
