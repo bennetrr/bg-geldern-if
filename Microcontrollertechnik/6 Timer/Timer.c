@@ -13,6 +13,9 @@ int takt_1Hz_cycles;
 
 void main()
 {
+	P4 = 0;
+	P50 = 1;
+	
 	initIsrT0();
 	initIsrT1();
 	
@@ -21,7 +24,8 @@ void main()
 	
 	while (1) {
 		P40 = takt_10kHz;
-		if (P50) P41 = takt_1Hz;
+		if (!P50) P41 = takt_1Hz;
+		if (P50) P41 = 0;
 	}
 }
 
