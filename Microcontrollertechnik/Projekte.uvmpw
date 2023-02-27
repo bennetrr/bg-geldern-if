@@ -57,6 +57,14 @@
 
   <project>
     <PathAndName>.\6 Timer\Timer.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\12a Poti LED\Poti LED.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\12b Poti LCD\Poti LCD.uvproj</PathAndName>
     <NodeIsActive>1</NodeIsActive>
     <NodeIsExpanded>1</NodeIsExpanded>
   </project>
