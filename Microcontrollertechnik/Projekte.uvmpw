@@ -57,7 +57,6 @@
 
   <project>
     <PathAndName>.\6 Timer\Timer.uvproj</PathAndName>
-    <NodeIsExpanded>1</NodeIsExpanded>
   </project>
 
   <project>
@@ -66,6 +65,7 @@
 
   <project>
     <PathAndName>.\12b Poti LCD\Poti LCD.uvproj</PathAndName>
+    <NodeIsExpanded>1</NodeIsExpanded>
   </project>
 
   <project>
