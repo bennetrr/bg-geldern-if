@@ -16,9 +16,6 @@ void main()
 	initialisierungLCD();
 	ausgabeBeschriftung();
 	
-	// Global enable
-	EAL = 1;
-	
 	while (1) {
 		while (BSY);
 		
