@@ -3,7 +3,7 @@
 sbit P32 = 0xB2;  // Starten
 sbit P34 = 0xB4;  // Lichtschranke
 
-sbit P41 = 0xE9;  // Förderband
+sbit P41 = 0xE9;  // FÃ¶rderband
 
 void initIsrP32();
 void initIsrP33();
@@ -38,8 +38,8 @@ void initIsrT0()
 	TF0 = 0;                      // Interrupt bei Overflow
 	TR0 = 1;                      // Timer run
 	TMOD = (TMOD & 0xF0) | 0x06;  // Mode: 0b0110
-	TH0 = 250;                    // Neuer Wert bei Overflow
-	TL0 = 250;                    // Startwert
+	TH0 = 251;                    // Neuer Wert bei Overflow
+	TL0 = 251;                    // Startwert
 	ET0 = 1;                      // Enable
 }
 
