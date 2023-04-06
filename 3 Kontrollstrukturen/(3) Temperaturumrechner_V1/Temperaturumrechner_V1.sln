@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperaturumrechner_V1", "Temperaturumrechner_V1\Temperaturumrechner_V1.csproj", "{63CE8BE7-13F3-4CB8-8C1C-5C7A07B1FCC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63CE8BE7-13F3-4CB8-8C1C-5C7A07B1FCC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CE8BE7-13F3-4CB8-8C1C-5C7A07B1FCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CE8BE7-13F3-4CB8-8C1C-5C7A07B1FCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CE8BE7-13F3-4CB8-8C1C-5C7A07B1FCC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
