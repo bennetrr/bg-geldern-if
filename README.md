@@ -1,3 +1,6 @@
+> [!WARNING]
+> Dieses Projekt ist archiviert und wird nicht mehr weiterentwickelt.
+
 # BK Computer Science (Informatik)
 
 This repository contains projects I made in my computer science class.
