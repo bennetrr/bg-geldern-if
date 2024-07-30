@@ -1,0 +1,102 @@
+[
+  {
+    "id": "_pb_users_auth_",
+    "name": "users",
+    "type": "auth",
+    "system": false,
+    "schema": [
+      {
+        "id": "asl7vqwk",
+        "name": "completed_stations",
+        "type": "relation",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "collectionId": "gh3k8h1bmsmrabn",
+          "cascadeDelete": false,
+          "maxSelect": null,
+          "displayFields": []
+        }
+      },
+      {
+        "id": "i2m62fy1",
+        "name": "my_station",
+        "type": "relation",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "collectionId": "gh3k8h1bmsmrabn",
+          "cascadeDelete": false,
+          "maxSelect": 1,
+          "displayFields": []
+        }
+      }
+    ],
+    "listRule": "id = @request.auth.id",
+    "viewRule": "id = @request.auth.id",
+    "createRule": null,
+    "updateRule": "id = @request.auth.id",
+    "deleteRule": null,
+    "options": {
+      "allowEmailAuth": false,
+      "allowOAuth2Auth": false,
+      "allowUsernameAuth": true,
+      "exceptEmailDomains": null,
+      "manageRule": null,
+      "minPasswordLength": 5,
+      "onlyEmailDomains": null,
+      "requireEmail": false
+    }
+  },
+  {
+    "id": "gh3k8h1bmsmrabn",
+    "name": "escape_stations",
+    "type": "base",
+    "system": false,
+    "schema": [
+      {
+        "id": "ynqeskt3",
+        "name": "name",
+        "type": "text",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "min": null,
+          "max": null,
+          "pattern": ""
+        }
+      },
+      {
+        "id": "dewr6s0d",
+        "name": "codes",
+        "type": "json",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {}
+      },
+      {
+        "id": "srnzrfpf",
+        "name": "color",
+        "type": "text",
+        "system": false,
+        "required": true,
+        "unique": false,
+        "options": {
+          "min": null,
+          "max": null,
+          "pattern": "^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
+        }
+      }
+    ],
+    "listRule": "@request.auth.id != \"\"",
+    "viewRule": "@request.auth.id != \"\"",
+    "createRule": null,
+    "updateRule": "@request.auth.id != \"\"",
+    "deleteRule": null,
+    "options": {}
+  }
+]
